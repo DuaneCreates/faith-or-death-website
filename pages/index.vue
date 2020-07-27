@@ -2,15 +2,17 @@
   <div class="container">
     <Header />
     <CallAction />
+    <Quote />
   </div>
 </template>
 
 <script>
 import Header from '../components/Header'
 import CallAction from '../components/CallAction'
+import Quote from '../components/Quote'
 
 export default {
-  components: { CallAction, Header }
+  components: { Quote, CallAction, Header }
 }
 </script>
 
