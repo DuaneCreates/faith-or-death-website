@@ -1,9 +1,21 @@
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <Header />
+    <CallAction />
+  </div>
 </template>
 
 <script>
-export default {}
+import Header from '../components/Header'
+import CallAction from '../components/CallAction'
+
+export default {
+  components: { CallAction, Header }
+}
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.container {
+  @apply mx-auto;
+}
+</style>
