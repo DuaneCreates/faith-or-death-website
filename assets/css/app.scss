@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@400;700&display=swap');
+
+body {
+  @apply bg-black font-body;
+}
+
+h1,h2,h3,h4,h5,h6{
+  @apply font-heading;
+}

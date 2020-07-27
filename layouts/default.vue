@@ -1,7 +1,11 @@
 <template>
-  <div>
+  <div class="app-container">
     <nuxt />
   </div>
 </template>
 
-<style></style>
+<style lang="scss">
+.app-container {
+  @apply min-h-screen;
+}
+</style>
