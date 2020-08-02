@@ -3,6 +3,7 @@
     <Header />
     <CallAction />
     <Quote />
+    <Gallery />
   </div>
 </template>
 
@@ -10,14 +11,15 @@
 import Header from '../components/Header'
 import CallAction from '../components/CallAction'
 import Quote from '../components/Quote'
+import Gallery from '../components/Gallery'
 
 export default {
-  components: { Quote, CallAction, Header }
+  components: { Gallery, Quote, CallAction, Header }
 }
 </script>
 
 <style lang="scss" scoped>
 .container {
-  @apply mx-auto;
+  @apply mx-auto max-w-none;
 }
 </style>
