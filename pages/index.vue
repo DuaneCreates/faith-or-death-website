@@ -4,6 +4,7 @@
     <CallAction />
     <Quote />
     <Gallery />
+    <Description />
   </div>
 </template>
 
@@ -12,9 +13,10 @@ import Header from '../components/Header'
 import CallAction from '../components/CallAction'
 import Quote from '../components/Quote'
 import Gallery from '../components/Gallery'
+import Description from '../components/Description'
 
 export default {
-  components: { Gallery, Quote, CallAction, Header }
+  components: { Description, Gallery, Quote, CallAction, Header }
 }
 </script>
 

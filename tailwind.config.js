@@ -19,6 +19,11 @@ module.exports = {
     },
     extend: {
       fontSize: {
+        14: '.875rem',
+        16: '1rem',
+        18: '1.125rem',
+        24: '1.5rem',
+        32: '2rem',
         'back-quote-small': '9.5rem'
       },
       spacing: {
