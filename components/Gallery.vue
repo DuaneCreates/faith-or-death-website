@@ -24,7 +24,7 @@ export default {
 
 <style lang="scss" scoped>
 .gallery-container {
-  @apply flex flex-col w-auto;
+  @apply flex flex-col w-auto mt-4 mb-12;
 
   @screen sm {
     @apply flex-row flex-wrap mx-2;
