@@ -20,6 +20,6 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  @apply mx-auto max-w-none;
+  @apply mx-auto max-w-1080;
 }
 </style>

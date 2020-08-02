@@ -30,6 +30,9 @@ module.exports = {
       },
       screens: {
         xs: '420px'
+      },
+      maxWidth: {
+        1080: '1920px'
       }
     }
   },
